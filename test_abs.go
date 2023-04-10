@@ -1,8 +1,7 @@
 package abs
 
-import ("fmt"
-        "testing"
-		"math")
+import ("testing"
+	"math")
 
 func TestAbs(t *testing.T) {
     got := math.Abs(-1)
