@@ -1,4 +1,4 @@
-package abs
+package main
 
 import ("testing"
 	"math")
