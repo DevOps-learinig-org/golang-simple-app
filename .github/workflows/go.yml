@@ -22,10 +22,12 @@ jobs:
         go-version: 1.20
       
     - name: Build
-      run: go build -v
+      run: go build -v -o go-test-app
 
     - name: Test
       run: go test -v
       
     - name: Run
-      run: ./main
+      run: |
+        ls
+        ./go-test-app
