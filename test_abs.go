@@ -3,8 +3,7 @@ package main
 import ("testing"
 	"math")
 
-func GPT()
-{
+func GPT(){
 	
 }
 
