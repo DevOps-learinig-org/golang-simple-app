@@ -20,12 +20,9 @@ jobs:
       uses: actions/setup-go@v4
       with:
         go-version: 1.19
-    
-    - name: Init
-      run: go mod init
 
     - name: Build
-      run: go build -v ./test_abs.go
+      run: go build -v
 
     - name: Test
-      run: go test -v ./test_abs
+      run: go test -v
