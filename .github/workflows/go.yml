@@ -29,5 +29,4 @@ jobs:
       
     - name: Run
       run: |
-        ls
         ./go-test-app
